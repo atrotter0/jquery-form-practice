@@ -23,7 +23,15 @@ $(document).ready(function() {
     var firstName = $("input#first-name").val();
     $("#friend-name").text(firstName);
     $("#letter").show();
-    
+
+    event.preventDefault();
+  });
+
+  $("#formThree").submit(function(event) {
+    var input = $("input#userInput").val().toUpperCase();
+    $(".output").text(input);
+    $("#shout").show();
+
     event.preventDefault();
   });
 });
