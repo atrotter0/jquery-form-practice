@@ -20,7 +20,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
-  //Letter for a friend
+  //Letter to a friend
   $("#formTwo").submit(function(event) {
     var firstName = $("input#first-name").val();
     $("#friend-name").text(firstName);

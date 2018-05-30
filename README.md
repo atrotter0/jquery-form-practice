@@ -1,4 +1,4 @@
-# Mad Libs and Letter to a Friend
+# Mad Libs, Letter to a Friend, and SHOUT
 
 #### Epicodus Intro to Programming lesson, 05.30.2018
 
