@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //Mad Libs
   $("#formOne").submit(function(event) {
     var person1Input = $("input#person1").val();
     var person2Input = $("input#person2").val();
@@ -19,6 +20,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  //Letter for a friend
   $("#formTwo").submit(function(event) {
     var firstName = $("input#first-name").val();
     $("#friend-name").text(firstName);
@@ -27,6 +29,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
 
+  //Shout
   $("#formThree").submit(function(event) {
     var input = $("input#userInput").val().toUpperCase();
     $(".output").text(input);

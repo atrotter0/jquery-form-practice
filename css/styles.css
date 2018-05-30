@@ -1,11 +1,7 @@
-#story {
+#story, #letter, #shout {
   display: none;
 }
 
-#letter {
-  display: none;
-}
-
-#shout {
-  display: none;
+.row {
+  margin-bottom: 40px;
 }
